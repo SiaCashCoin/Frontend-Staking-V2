@@ -103,7 +103,7 @@ const getAprsForFarmGroup = async (addresses: string[], blockWeekAgo: number): P
 const fetchAndUpdateLPsAPR = async () => {
   // pids before 250 are inactive farms from v1 and failed v2 migration
   const lowerCaseAddresses = farmsConfig
-    .filter((farm) => farm.pid > 250)
+    .filter((farm) => farm.pid > 0)
     .map((farm) => farm.lpAddresses[ChainId.MAINNET].toLowerCase())
   console.info(`Fetching farm data for ${lowerCaseAddresses.length} addresses`)
   // Split it into chunks of 30 addresses to avoid gateway timeout
