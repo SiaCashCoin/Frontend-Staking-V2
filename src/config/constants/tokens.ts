@@ -73,6 +73,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://shibatoken.com/',
   },
+  tem: {
+    symbol: 'TEM',
+    address: {
+      56: '0x19e6BfC1A6e4B042Fb20531244D47E252445df01',
+      97: '',
+    },
+    decimals: 9,
+    projectLink: 'https://templar.finance/',
+  },
   cake: {
     symbol: 'SCC',
     address: {
