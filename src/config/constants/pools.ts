@@ -40,11 +40,23 @@ const pools: PoolConfig[] = [
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
-    sortOrder: 2,
+    sortOrder: 3,
     isFinished: true,
     tokenPerBlock: '7',
   },
-  
+  {
+    sousId: 3,
+    stakingToken: tokens.cake,
+    earningToken: tokens.shib,
+    contractAddress: {
+      97: '',
+      56: '0x1DB1945A84748742093e77DB5B6FFc812aE16BB9',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    sortOrder: 4,
+    tokenPerBlock: '7',
+  },
 
 
  ]
