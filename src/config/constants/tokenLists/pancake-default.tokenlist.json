@@ -18,6 +18,14 @@
       "decimals": 18,
       "logoURI": "https://siacashcoin.com/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
     },
+     {
+      "name": "Templar Token",
+      "symbol": "TEM",
+      "address": "0x19e6BfC1A6e4B042Fb20531244D47E252445df01",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://siacashcoin.com/images/tokens/0x19e6BfC1A6e4B042Fb20531244D47E252445df01.png"
+    },
     {
       "name": "BUSD Token",
       "symbol": "BUSD",
