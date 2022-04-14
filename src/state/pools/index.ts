@@ -1,11 +1,15 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import BigNumber from 'bignumber.js'
+import farmsConfig from 'config/constants/farms'
 import poolsConfig from 'config/constants/pools'
 import { BIG_ZERO } from 'utils/bigNumber'
 import { PoolsState, Pool, CakeVault, VaultFees, VaultUser, AppThunk } from 'state/types'
 import { getPoolApr } from 'utils/apr'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { getAddress } from 'utils/addressHelpers'
+import priceHelperPoolLpsConfig from 'config/constants/priceHelperPoolLps'
+import fetchFarmsPrices from 'state/farms/fetchFarmsPrices'
+import fetchFarms from 'state/farms/fetchFarms'
 import { fetchPoolsBlockLimits, fetchPoolsStakingLimits, fetchPoolsTotalStaking } from './fetchPools'
 import {
   fetchPoolsAllowance,
@@ -16,6 +20,7 @@ import {
 import { fetchPublicVaultData, fetchVaultFees } from './fetchVaultPublic'
 import fetchVaultUser from './fetchVaultUser'
 import { getTokenPricesFromFarm } from './helpers'
+
 
 const initialState: PoolsState = {
   data: [...poolsConfig],
@@ -47,7 +52,16 @@ export const fetchPoolsPublicDataAsync = (currentBlock: number) => async (dispat
   const blockLimits = await fetchPoolsBlockLimits()
   const totalStakings = await fetchPoolsTotalStaking()
 
-  const prices = getTokenPricesFromFarm(getState().farms.data)
+   // changed : load helper prices and use farm PID #8 to determine BUSD price
+   const farmsToFetch = farmsConfig.filter((farmConfig) => farmConfig.pid === 8)
+   const farmsWithPriceHelpers = farmsToFetch.concat(priceHelperPoolLpsConfig)
+ 
+   const farms = await fetchFarms(farmsWithPriceHelpers)
+   const farmsWithPrices = await fetchFarmsPrices(farms)
+ 
+   const prices = { ...getTokenPricesFromFarm(getState().farms.data), ...getTokenPricesFromFarm(farmsWithPrices) }
+
+ // const prices = getTokenPricesFromFarm(getState().farms.data)
 
   const liveData = poolsConfig.map((pool) => {
     const blockLimit = blockLimits.find((entry) => entry.sousId === pool.sousId)
