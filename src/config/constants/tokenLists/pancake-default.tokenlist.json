@@ -27,6 +27,38 @@
       "logoURI": "https://siacashcoin.com/images/tokens/0x19e6BfC1A6e4B042Fb20531244D47E252445df01.png"
     },
     {
+      "name": "LilX Floki Token",
+      "symbol": "LILX",
+      "address": "0xCb65b797C650B3a25E7cb862F7d9d0f125021Aa6",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://siacashcoin.com/images/tokens/0xCb65b797C650B3a25E7cb862F7d9d0f125021Aa6.png"
+    },
+    {
+      "name": "Tiny Coin Token",
+      "symbol": "TINC",
+      "address": "0x05aD6E30A855BE07AfA57e08a4f30d00810a402e",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://siacashcoin.com/images/tokens/0x05aD6E30A855BE07AfA57e08a4f30d00810a402e.png"
+    },
+    {
+      "name": "HighStreet Token",
+      "symbol": "HIGH",
+      "address": "0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://siacashcoin.com/images/tokens/0x5f4Bde007Dc06b867f86EBFE4802e34A1fFEEd63.png"
+    },
+    {
+      "name": "CEEK Token",
+      "symbol": "TINC",
+      "address": "0xe0F94Ac5462997D2BC57287Ac3a3aE4C31345D66",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://siacashcoin.com/images/tokens/0xe0F94Ac5462997D2BC57287Ac3a3aE4C31345D66.png"
+    },
+    {
       "name": "BUSD Token",
       "symbol": "BUSD",
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
