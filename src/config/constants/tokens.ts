@@ -82,6 +82,24 @@ const tokens = {
     decimals: 9,
     projectLink: 'https://templar.finance/',
   },
+   tinc: {
+    symbol: 'TINC',
+    address: {
+      56: '0x05aD6E30A855BE07AfA57e08a4f30d00810a402e',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://tinyworlds.io/',
+  },
+  ceek: {
+    symbol: 'CEEK',
+    address: {
+      56: '0xe0F94Ac5462997D2BC57287Ac3a3aE4C31345D66',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://www.ceek.com/',
+  },
   lilx: {
     symbol: 'LILX',
     address: {
