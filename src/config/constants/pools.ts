@@ -83,6 +83,46 @@ const pools: PoolConfig[] = [
     sortOrder: 6,
     tokenPerBlock: '121341',
   },
+  {
+    sousId: 6,
+    stakingToken: tokens.fork,
+    earningToken: tokens.high,
+    contractAddress: {
+      97: '',
+      56: '0x60c4998C058BaC8042712B54E7e43b892Ab0B0c4',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    sortOrder: 7,
+    tokenPerBlock: '0.09756',
+  },
+  {
+    sousId: 7,
+    stakingToken: tokens.fork,
+    earningToken: tokens.ceek,
+    contractAddress: {
+      97: '',
+      56: '0xED53944b1c0cEecDe1a413fDb4D0496e1a08ab58',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    sortOrder: 8,
+    tokenPerBlock: '0.8078',
+  },
+  {
+    sousId: 8,
+    stakingToken: tokens.fork,
+    earningToken: tokens.tinc,
+    contractAddress: {
+      97: '',
+      56: '0x9593462fF51A14633b243Ba3d054A8183d057A02',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    sortOrder: 9,
+    tokenPerBlock: '0.4677',
+  }, 
+
 
 
  ]
