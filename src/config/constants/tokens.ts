@@ -82,6 +82,15 @@ const tokens = {
     decimals: 9,
     projectLink: 'https://templar.finance/',
   },
+  lilx: {
+    symbol: 'LILX',
+    address: {
+      56: '0xcb65b797c650b3a25e7cb862f7d9d0f125021aa6',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://t.me/lil_x_floki',
+  },  
   cake: {
     symbol: 'SCC',
     address: {
