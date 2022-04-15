@@ -63,7 +63,7 @@ const priceHelperPoolLps: FarmConfig[] = [
       97: '',
       56: '0x046A9B3A9b743340eE2Bc4C6dDD35543E237C6c2',
     },
-    token: tokens.tinc,
+    token: tokens.ceek,
     quoteToken: tokens.wbnb,
   },
 
