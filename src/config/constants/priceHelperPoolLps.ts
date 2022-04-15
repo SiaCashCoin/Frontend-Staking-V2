@@ -46,6 +46,26 @@ const priceHelperPoolLps: FarmConfig[] = [
     token: tokens.high,
     quoteToken: tokens.busd,
   },
+   {
+    pid: null,
+    lpSymbol: 'TINC-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x0d5b9A0f4315a4bcE36D1Ea7d6B6d3123167aFAa',
+    },
+    token: tokens.tinc,
+    quoteToken: tokens.wbnb,
+  },
+   {
+    pid: null,
+    lpSymbol: 'CEEK-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x046A9B3A9b743340eE2Bc4C6dDD35543E237C6c2',
+    },
+    token: tokens.tinc,
+    quoteToken: tokens.wbnb,
+  },
 
 ]
 
