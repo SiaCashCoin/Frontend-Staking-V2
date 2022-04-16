@@ -27,6 +27,14 @@
       "logoURI": "https://siacashcoin.com/images/tokens/0x19e6BfC1A6e4B042Fb20531244D47E252445df01.png"
     },
     {
+      "name": "Avocado Token",
+      "symbol": "AVO",
+      "address": "0xDA5d7C36513F13D275dd46CA2Bd2ADD566412A15",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://siacashcoin.com/images/tokens/0xDA5d7C36513F13D275dd46CA2Bd2ADD566412A15.png"
+    },
+    {
       "name": "LilX Floki Token",
       "symbol": "LILX",
       "address": "0xCb65b797C650B3a25E7cb862F7d9d0f125021Aa6",

@@ -64,6 +64,15 @@ const tokens = {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
   },
+  avo: {
+    symbol: 'AVO',
+    address: {
+      56: '0xDA5d7C36513F13D275dd46CA2Bd2ADD566412A15',
+      97: '',
+    },
+    decimals: 9,
+    projectLink: 'https://avocadotoken.io/',
+  },  
   shib: {
     symbol: 'SHIB',
     address: {
