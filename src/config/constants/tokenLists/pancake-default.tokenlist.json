@@ -27,6 +27,22 @@
       "logoURI": "https://siacashcoin.com/images/tokens/0x19e6BfC1A6e4B042Fb20531244D47E252445df01.png"
     },
     {
+      "name": "SHIB Token",
+      "symbol": "SHIB",
+      "address": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://siacashcoin.com/images/tokens/0x2859e4544C4bB03966803b044A93563Bd2D0DD4D.png"
+    },
+    {
+      "name": "DOGE Token",
+      "symbol": "DOGE",
+      "address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://siacashcoin.com/images/tokens/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png"
+    },
+    {
       "name": "Avocado Token",
       "symbol": "AVO",
       "address": "0xDA5d7C36513F13D275dd46CA2Bd2ADD566412A15",
@@ -141,10 +157,10 @@
     {
       "name": "SafeMoon",
       "symbol": "SAFEMOON",
-      "address": "0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3",
+      "address": "0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5",
       "chainId": 56,
       "decimals": 9,
-      "logoURI": "https://siacashcoin.com/images/tokens/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3.png"
+      "logoURI": "https://siacashcoin.com/images/tokens/0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5.png"
     },
     {
       "name": "Alpaca",
