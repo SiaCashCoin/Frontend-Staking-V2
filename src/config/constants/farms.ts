@@ -35,7 +35,6 @@ const farms: FarmConfig[] = [
     token: tokens.cake,
     quoteToken: tokens.busd,
   },
-  /* Add new farms below this line */
   {
     pid: 8,
     lpSymbol: 'BUSD-BNB LP',
@@ -46,6 +45,7 @@ const farms: FarmConfig[] = [
     token: tokens.busd,
     quoteToken: tokens.wbnb,
   },
+  /* Add new farms below this line */
   {
     pid: 4,
     lpSymbol: 'ETH-SCC LP',
@@ -85,6 +85,16 @@ const farms: FarmConfig[] = [
     },
     token: tokens.doge,
     quoteToken: tokens.wbnb,
+  },
+  {
+    pid: 10,
+    lpSymbol: 'TEM-SCC LP',
+    lpAddresses: {
+      97: '',
+      56: '0x1980357681Da77B2B91bB8037b487137ba5A5EDd',
+    },
+    token: tokens.tem,
+    quoteToken: tokens.cake,
   },
   
   
