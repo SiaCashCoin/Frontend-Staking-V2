@@ -72,6 +72,15 @@ const tokens = {
     },
     decimals: 9,
     projectLink: 'https://avocadotoken.io/',
+  }, 
+  kmz: {
+    symbol: 'KMZ',
+    address: {
+      56: '0x9E1E967936347C608A2c42596CB809B3AA96366b',
+      97: '',
+    },
+    decimals: 4,
+    projectLink: 'https://kamikazetoken.com/',
   },  
   shib: {
     symbol: 'SHIB',
