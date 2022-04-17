@@ -134,6 +134,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.CORE,
     harvest: true,
     sortOrder: 10,
+    isFinished: true,
     tokenPerBlock: '4975',
   }, 
 
