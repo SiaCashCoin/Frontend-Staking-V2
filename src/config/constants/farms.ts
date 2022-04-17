@@ -96,6 +96,16 @@ const farms: FarmConfig[] = [
     token: tokens.tem,
     quoteToken: tokens.cake,
   },
+  {
+    pid: 11,
+    lpSymbol: 'SCC-KMZ LP',
+    lpAddresses: {
+      97: '',
+      56: '0x16C11F605F3CE6216feF17dF41b5DA682EC84c20',
+    },
+    token: tokens.cake,
+    quoteToken: tokens.kmz,
+  },  
   
   
  ]
