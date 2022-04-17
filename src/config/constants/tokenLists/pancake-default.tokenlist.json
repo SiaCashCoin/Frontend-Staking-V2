@@ -26,6 +26,14 @@
       "decimals": 9,
       "logoURI": "https://siacashcoin.com/images/tokens/0x19e6BfC1A6e4B042Fb20531244D47E252445df01.png"
     },
+     {
+      "name": "KMZ Token",
+      "symbol": "KMZ",
+      "address": "0x9E1E967936347C608A2c42596CB809B3AA96366b",
+      "chainId": 56,
+      "decimals": 4,
+      "logoURI": "https://siacashcoin.com/images/tokens/0x9E1E967936347C608A2c42596CB809B3AA96366b.png"
+    },
     {
       "name": "SHIB Token",
       "symbol": "SHIB",

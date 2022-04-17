@@ -123,6 +123,19 @@ const pools: PoolConfig[] = [
     sortOrder: 9,
     tokenPerBlock: '0.4677',
   }, 
+  {
+    sousId: 9,
+    stakingToken: tokens.kmz,
+    earningToken: tokens.kmz,
+    contractAddress: {
+      97: '',
+      56: '0x2699549de69013F7F296981557682f3d080C9Fb7',
+    },
+    poolCategory: PoolCategory.CORE,
+    harvest: true,
+    sortOrder: 10,
+    tokenPerBlock: '4975',
+  }, 
 
 
 
