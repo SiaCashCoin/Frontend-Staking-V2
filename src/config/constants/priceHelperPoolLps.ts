@@ -76,7 +76,6 @@ const priceHelperPoolLps: FarmConfig[] = [
     token: tokens.kmz,
     quoteToken: tokens.wbnb,
   },
-
 ]
 
 export default priceHelperPoolLps
