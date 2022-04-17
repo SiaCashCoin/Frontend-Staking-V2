@@ -66,7 +66,7 @@ const priceHelperPoolLps: FarmConfig[] = [
     token: tokens.ceek,
     quoteToken: tokens.wbnb,
   },
-   {
+  {
     pid: null,
     lpSymbol: 'KMZ-BNB LP',
     lpAddresses: {
@@ -75,9 +75,11 @@ const priceHelperPoolLps: FarmConfig[] = [
     },
     token: tokens.kmz,
     quoteToken: tokens.wbnb,
-  },
-  
-  
+  }, 
+ 
+ 
+
+
 ]
 
 export default priceHelperPoolLps
