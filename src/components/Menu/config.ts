@@ -56,7 +56,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: 'Prediction',
-        href: 'https://dogebets.siacashcoin.com/',
+        href: 'https://siacashcoin.com/prediction',
       },
       {
         label: 'CoinFlip',
