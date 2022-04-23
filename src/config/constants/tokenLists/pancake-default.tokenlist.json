@@ -59,6 +59,14 @@
       "logoURI": "https://siacashcoin.com/images/tokens/0xDA5d7C36513F13D275dd46CA2Bd2ADD566412A15.png"
     },
     {
+      "name": "Praise Fan Token",
+      "symbol": "Praise",
+      "address": "0x2a64ab26cd76f349144920E8a7A59C0D6B7F2967",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://siacashcoin.com/images/tokens/0x2a64ab26cd76f349144920E8a7A59C0D6B7F2967.png"
+    },
+    {
       "name": "LilX Floki Token",
       "symbol": "LILX",
       "address": "0xCb65b797C650B3a25E7cb862F7d9d0f125021Aa6",
