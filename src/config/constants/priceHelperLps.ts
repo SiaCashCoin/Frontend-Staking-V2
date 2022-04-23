@@ -19,6 +19,16 @@ const priceHelperLps: FarmConfig[] = [
     token: tokens.qsd,
     quoteToken: tokens.wbnb,
   },
+  {
+    pid: null,
+    lpSymbol: 'PRAISE-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x56f4032Ff29385F3eb5A90021A6e747345F02996',
+    },
+    token: tokens.praise,
+    quoteToken: tokens.wbnb,
+  },
 ]
 
 export default priceHelperLps
