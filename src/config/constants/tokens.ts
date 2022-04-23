@@ -81,6 +81,15 @@ const tokens = {
     },
     decimals: 4,
     projectLink: 'https://kamikazetoken.com/',
+  }, 
+  praise: {
+    symbol: 'PRAISE',
+    address: {
+      56: '0x2a64ab26cd76f349144920E8a7A59C0D6B7F2967',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://praisetokens.pro/',
   },  
   shib: {
     symbol: 'SHIB',
