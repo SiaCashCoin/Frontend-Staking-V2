@@ -115,6 +115,16 @@ const farms: FarmConfig[] = [
     },
     token: tokens.praise,
     quoteToken: tokens.cake,
+  },
+  {
+    pid: 13,
+    lpSymbol: 'LILX-SCC LP',
+    lpAddresses: {
+      97: '',
+      56: '0x611A0fA0D2434c28bc2dF549629E75b7e58C4940',
+    },
+    token: tokens.lilx,
+    quoteToken: tokens.cake,
   },  
   
   
