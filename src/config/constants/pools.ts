@@ -71,7 +71,7 @@ const pools: PoolConfig[] = [
     tokenPerBlock: '0.000002000',
   },  
   {
-    sousId: 4,
+    sousId: 5,
     stakingToken: tokens.lilx,
     earningToken: tokens.lilx,
     contractAddress: {
@@ -80,7 +80,7 @@ const pools: PoolConfig[] = [
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
-    sortOrder: 5,
+    sortOrder: 6,
     tokenPerBlock: '140000',
   },  
   {
