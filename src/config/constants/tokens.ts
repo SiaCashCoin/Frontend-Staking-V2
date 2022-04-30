@@ -130,10 +130,10 @@ const tokens = {
   lilx: {
     symbol: 'LILX',
     address: {
-      56: '0xcb65b797c650b3a25e7cb862f7d9d0f125021aa6',
+      56: '0x96694e2F40635Fa178f14C13772C02e614A4D5D2',
       97: '',
     },
-    decimals: 18,
+    decimals: 9,
     projectLink: 'https://t.me/lil_x_floki',
   },  
   cake: {
