@@ -76,8 +76,16 @@ const priceHelperPoolLps: FarmConfig[] = [
     token: tokens.kmz,
     quoteToken: tokens.wbnb,
   }, 
- 
- 
+  {
+    pid: null,
+    lpSymbol: 'LILX-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x302D700cf9bE848cF57B49f93f488A7486D11238',
+    },
+    token: tokens.kmz,
+    quoteToken: tokens.wbnb,
+  }, 
 
 
 ]
