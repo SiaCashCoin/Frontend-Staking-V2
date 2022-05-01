@@ -15,17 +15,7 @@ const priceHelperPoolLps: FarmConfig[] = [
     },
     token: tokens.tem,
     quoteToken: tokens.wbnb,
-  },
-   {
-    pid: null,
-    lpSymbol: 'LILX-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xEfE360243F4Fcb6644c6847C81113e0BC7362f40',
-    },
-    token: tokens.lilx,
-    quoteToken: tokens.wbnb,
-  },
+  },  
   {
     pid: null,
     lpSymbol: 'CAKE-BNB LP',
