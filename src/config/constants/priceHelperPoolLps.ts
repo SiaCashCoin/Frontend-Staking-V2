@@ -78,13 +78,13 @@ const priceHelperPoolLps: FarmConfig[] = [
   }, 
    {
     pid: null,
-    lpSymbol: 'LILX-SCC LP',
+    lpSymbol: 'LILX-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x611A0fA0D2434c28bc2dF549629E75b7e58C4940',
+      56: '0x302D700cf9bE848cF57B49f93f488A7486D11238',
     },
     token: tokens.lilx,
-    quoteToken: tokens.cake,
+    quoteToken: tokens.wbnb,
   }, 
  
 
