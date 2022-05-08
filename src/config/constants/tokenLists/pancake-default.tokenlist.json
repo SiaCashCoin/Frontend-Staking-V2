@@ -147,6 +147,14 @@
       "logoURI": "https://siacashcoin.com/images/tokens/0xc26EaFC627624baDf990f8d30116892eD204DB51.png"
     },
     {
+      "name": "Pixie Token",
+      "symbol": "PIXIE",
+      "address": "0x194177eee285b6827457e183e0e52b54e8f6f624",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://siacashcoin.com/images/tokens/0x194177eee285b6827457e183e0e52b54e8f6f624.png"
+    },    
+    {
       "name": "Venus",
       "symbol": "XVS",
       "address": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
