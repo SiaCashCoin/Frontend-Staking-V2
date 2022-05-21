@@ -50,6 +50,15 @@
       "decimals": 8,
       "logoURI": "https://siacashcoin.com/images/tokens/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png"
     },
+     {
+      "name": "Metawarfare Token",
+      "symbol": "MWF",
+      "address": "0x7281c8d16E5ECe362540959d07922034887836D1",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": "https://siacashcoin.com/images/tokens/0x7281c8d16E5ECe362540959d07922034887836D1.png"
+    },
+    
     {
       "name": "Avocado Token",
       "symbol": "AVO",
