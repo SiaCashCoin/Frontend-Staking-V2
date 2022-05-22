@@ -52,7 +52,7 @@
     },
      {
       "name": "Metawarfare Token",
-      "symbol": "MWF",
+      "symbol": "MWT",
       "address": "0x7281c8d16E5ECe362540959d07922034887836D1",
       "chainId": 56,
       "decimals": 9,
