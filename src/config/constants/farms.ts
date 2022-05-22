@@ -128,7 +128,7 @@ const farms: FarmConfig[] = [
   },
    {
     pid: 14,
-    lpSymbol: 'MWF-SCC LP',
+    lpSymbol: 'MWT-SCC LP',
     lpAddresses: {
       97: '',
       56: '0xF1bAAA261889953A354897BfA6632793058e3243',
