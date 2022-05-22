@@ -73,8 +73,8 @@ const tokens = {
     decimals: 9,
     projectLink: 'https://avocadotoken.io/',
   }, 
-  mwt: {
-    symbol: 'MWT',
+  mwf: {
+    symbol: 'MWF',
     address: {
       56: '0x7281c8d16e5ece362540959d07922034887836d1',
       97: '',
