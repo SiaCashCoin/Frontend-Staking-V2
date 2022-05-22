@@ -77,6 +77,26 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.cake,
   },
   {
+    pid: 15,
+    lpSymbol: 'MWT-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x9BedF5B6eA1634d21607fcEC5c97c031d60c2123',
+    },
+    token: tokens.mwt,
+    quoteToken: tokens.wbnb,
+  },
+  {
+    pid: 14,
+    lpSymbol: 'MWT-SCC LP',
+    lpAddresses: {
+      97: '',
+      56: '0xF1bAAA261889953A354897BfA6632793058e3243',
+    },
+    token: tokens.mwt,
+    quoteToken: tokens.cake,
+  },  
+  {
     pid: 7,
     lpSymbol: 'DOGE-BNB LP',
     lpAddresses: {
@@ -126,16 +146,7 @@ const farms: FarmConfig[] = [
     token: tokens.lilx,
     quoteToken: tokens.cake,
   },
-   {
-    pid: 14,
-    lpSymbol: 'MWT-SCC LP',
-    lpAddresses: {
-      97: '',
-      56: '0xF1bAAA261889953A354897BfA6632793058e3243',
-    },
-    token: tokens.mwt,
-    quoteToken: tokens.cake,
-  },  
+   
   
   
  ]
