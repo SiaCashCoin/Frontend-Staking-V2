@@ -78,22 +78,22 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 15,
-    lpSymbol: 'MWT-BNB LP',
+    lpSymbol: 'MWF-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x9BedF5B6eA1634d21607fcEC5c97c031d60c2123',
     },
-    token: tokens.mwt,
+    token: tokens.mwf,
     quoteToken: tokens.wbnb,
   },
   {
     pid: 14,
-    lpSymbol: 'MWT-SCC LP',
+    lpSymbol: 'MWF-SCC LP',
     lpAddresses: {
       97: '',
       56: '0xF1bAAA261889953A354897BfA6632793058e3243',
     },
-    token: tokens.mwt,
+    token: tokens.mwf,
     quoteToken: tokens.cake,
   },  
   {
