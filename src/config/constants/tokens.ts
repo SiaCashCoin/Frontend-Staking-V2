@@ -73,6 +73,15 @@ const tokens = {
     decimals: 9,
     projectLink: 'https://avocadotoken.io/',
   }, 
+  mwt: {
+    symbol: 'MWT',
+    address: {
+      56: '0x7281c8d16e5ece362540959d07922034887836d1',
+      97: '',
+    },
+    decimals: 9,
+    projectLink: 'Https://metaWarfare-official.io/',
+  }, 
   kmz: {
     symbol: 'KMZ',
     address: {

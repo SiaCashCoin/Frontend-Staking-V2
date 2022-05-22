@@ -39,6 +39,16 @@ const priceHelperLps: FarmConfig[] = [
     token: tokens.lilx,
     quoteToken: tokens.wbnb,
   }, 
+  {
+    pid: null,
+    lpSymbol: 'MWT-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x9BedF5B6eA1634d21607fcEC5c97c031d60c2123',
+    },
+    token: tokens.mwt,
+    quoteToken: tokens.wbnb,
+  }, 
 ]
 
 export default priceHelperLps
