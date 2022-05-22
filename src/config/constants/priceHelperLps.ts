@@ -41,12 +41,12 @@ const priceHelperLps: FarmConfig[] = [
   }, 
   {
     pid: null,
-    lpSymbol: 'MWT-BNB LP',
+    lpSymbol: 'MWF-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x9BedF5B6eA1634d21607fcEC5c97c031d60c2123',
     },
-    token: tokens.mwt,
+    token: tokens.mwf,
     quoteToken: tokens.wbnb,
   }, 
 ]
