@@ -125,6 +125,16 @@ const farms: FarmConfig[] = [
     },
     token: tokens.lilx,
     quoteToken: tokens.cake,
+  },
+   {
+    pid: 14,
+    lpSymbol: 'MWF-SCC LP',
+    lpAddresses: {
+      97: '',
+      56: '0xF1bAAA261889953A354897BfA6632793058e3243',
+    },
+    token: tokens.mwf,
+    quoteToken: tokens.cake,
   },  
   
   
