@@ -159,7 +159,7 @@ const pools: PoolConfig[] = [
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
-    stakingLimit: 0,
+    stakingLimit?: 0,
     sortOrder: 12,
     tokenPerBlock: '8.68',
   },
