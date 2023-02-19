@@ -112,10 +112,14 @@ const ExpandedFooter: React.FC<ExpandedFooterProps> = ({ pool, account }) => {
         </Flex>
       </Flex>
       {stakingLimit && stakingLimit.gt(0) && (
-        <Flex mb="2px" justifyContent="space-between">
-          <Text small>{t('Max. stake per user')}:</Text>
-          <Text small>{`${getFullDisplayBalance(stakingLimit, stakingToken.decimals, 0)} ${stakingToken.symbol}`}</Text>
-        </Flex>
+      <MaxStakeRow
+          small
+          currentBlock={currentBlock}
+          hasPoolStarted={hasPoolStarted}
+          stakingLimit={stakingLimit}
+          stakingLimitEndBlock={stakingLimitEndBlock}
+          stakingToken={stakingToken}
+        />
       )}
       {shouldShowBlockCountdown && (
         <Flex mb="2px" justifyContent="space-between" alignItems="center">
