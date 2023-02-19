@@ -77,6 +77,7 @@ export interface PoolConfig {
   harvest?: boolean
   isFinished?: boolean
   enableEmergencyWithdraw?: boolean
+  stakingLimit?: BigNumber
 
 }
 
