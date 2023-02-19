@@ -151,15 +151,16 @@ const pools: PoolConfig[] = [
   }, 
 {
     sousId: 11,
-    stakingToken: bscTokens.cake,
-    earningToken: bscTokens.csix,
+    stakingToken: Tokens.cake,
+    earningToken: Tokens.csix,
     contractAddress: {
       56: '0x8BD7b0d392D2dE8F682704A3186A48467FcDC7AC',
       97: '',
     },
     poolCategory: PoolCategory.CORE,
+    harvest: true,
+    sortOrder: 12,
     tokenPerBlock: '8.68',
-    version: 3,
   },
 
  ]
