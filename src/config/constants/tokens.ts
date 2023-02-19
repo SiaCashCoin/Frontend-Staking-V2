@@ -144,7 +144,16 @@ const tokens = {
     },
     decimals: 9,
     projectLink: 'https://t.me/lil_x_floki',
-  },  
+  },
+  csix: {
+    symbol: 'CSIX',
+    address: {
+      56: '0x04756126F044634C9a0f0E985e60c88a51ACC206',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://carbon.website/',
+  },
   cake: {
     symbol: 'SCC',
     address: {
