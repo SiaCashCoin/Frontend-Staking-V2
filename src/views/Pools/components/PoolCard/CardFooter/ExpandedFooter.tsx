@@ -109,30 +109,30 @@ const ExpandedFooter: React.FC<ExpandedFooterProps> = ({ pool, account }) => {
           {totalStakedTooltipVisible && totalStakedTooltip}
         </Flex>
       </Flex>
-  //  {stakingLimit && stakingLimit.gt(0) && (
-  //    <Flex mb="2px" justifyContent="space-between">
-  //       <Text small>{t('Max. stake per user')}:</Text>
-  //       <Text small>{`${getFullDisplayBalance(stakingLimit, stakingToken.decimals, 0)} ${stakingToken.symbol}`}</Text>
-  //     </Flex>
-  //    )}
-  //    {shouldShowBlockCountdown && (
-  //      <Flex mb="2px" justifyContent="space-between" alignItems="center">
-  //        <Text small>{hasPoolStarted ? t('Ends in') : t('Starts in')}:</Text>
-  //        {blocksRemaining || blocksUntilStart ? (
-  //          <Flex alignItems="center">
-  //            <Link external href={getBscScanLink(hasPoolStarted ? endBlock : startBlock, 'countdown')}>
-  //              <Balance small value={blocksToDisplay} decimals={0} color="primary" />
-  //              <Text small ml="4px" color="primary" textTransform="lowercase">
-  //                {t('Blocks')}
-  //              </Text>
-  //              <TimerIcon ml="4px" color="primary" />
-  //            </Link>
-  //          </Flex>
-  //        ) : (
-  //          <Skeleton width="54px" height="21px" />
-  //        )}
-  //      </Flex>
-  //   )}
+   {stakingLimit && stakingLimit.gt(0) && (
+     // <Flex mb="2px" justifyContent="space-between">
+     //  <Text small>{t('Max. stake per user')}:</Text>
+     //    <Text small>{`${getFullDisplayBalance(stakingLimit, stakingToken.decimals, 0)} ${stakingToken.symbol}`}</Text>
+     //  </Flex>
+      )}
+      {shouldShowBlockCountdown && (
+        <Flex mb="2px" justifyContent="space-between" alignItems="center">
+          <Text small>{hasPoolStarted ? t('Ends in') : t('Starts in')}:</Text>
+         {blocksRemaining || blocksUntilStart ? (
+           <Flex alignItems="center">
+             <Link external href={getBscScanLink(hasPoolStarted ? endBlock : startBlock, 'countdown')}>
+                <Balance small value={blocksToDisplay} decimals={0} color="primary" />
+                <Text small ml="4px" color="primary" textTransform="lowercase">
+                  {t('Blocks')}
+                </Text>
+               <TimerIcon ml="4px" color="primary" />
+             </Link>
+           </Flex>
+         ) : (
+          <Skeleton width="54px" height="21px" />
+        )}
+       </Flex>
+    )}
       {isAutoVault && (
         <Flex mb="2px" justifyContent="space-between" alignItems="center">
           {tooltipVisible && tooltip}
