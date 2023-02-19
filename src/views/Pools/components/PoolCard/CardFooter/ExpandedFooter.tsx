@@ -1,7 +1,7 @@
 import React from 'react'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
-import { getBalanceNumber, getFullDisplayBalance } from 'utils/formatBalance'
+import { getBalanceNumber } from 'utils/formatBalance'
 import { useTranslation } from 'contexts/Localization'
 import {
   Flex,
@@ -25,6 +25,7 @@ import { registerToken } from 'utils/wallet'
 import { getBscScanLink } from 'utils'
 import Balance from 'components/Balance'
 import { getPoolBlockInfo } from 'views/Pools/helpers'
+import MaxStakeRow from '../../MaxStakeRow'
 
 interface ExpandedFooterProps {
   pool: Pool
