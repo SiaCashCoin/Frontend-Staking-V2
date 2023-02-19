@@ -41,7 +41,8 @@ export interface Farm extends FarmConfig {
 
 export interface Pool extends PoolConfig {
   totalStaked?: BigNumber
-  stakingLimit?: BigNumber
+  stakingLimitEndBlock?: number
+  numberBlocksForUserLimit?: number
   startBlock?: number
   endBlock?: number
   apr?: number
