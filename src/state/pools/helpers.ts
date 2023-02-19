@@ -22,13 +22,25 @@ export const transformUserData = (userData: UserData) => {
 }
 
 export const transformPool = (pool: Pool): Pool => {
-  const { totalStaked, stakingLimit, userData, ...rest } = pool
+  const {
+    totalStaked,
+    stakingLimit,
+    numberBlocksForUserLimit,
+    userData,
+    stakingToken,
+    earningToken,
+    profileRequirement,
+    startBlock,
+    ...rest
+  } = pool
 
   return {
     ...rest,
+    startBlock,
     userData: transformUserData(userData),
     totalStaked: new BigNumber(totalStaked),
     stakingLimit: new BigNumber(stakingLimit),
+    stakingLimitEndBlock: numberBlocksForUserLimit + startBlock,
   } as Pool
 }
 
