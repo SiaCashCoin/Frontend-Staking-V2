@@ -151,8 +151,8 @@ const pools: PoolConfig[] = [
   }, 
 {
     sousId: 11,
-    stakingToken: Tokens.cake,
-    earningToken: Tokens.csix,
+    stakingToken: tokens.cake,
+    earningToken: tokens.csix,
     contractAddress: {
       56: '0x8BD7b0d392D2dE8F682704A3186A48467FcDC7AC',
       97: '',
