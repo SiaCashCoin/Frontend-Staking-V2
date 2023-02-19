@@ -76,8 +76,17 @@ const priceHelperPoolLps: FarmConfig[] = [
     token: tokens.lilx,
     quoteToken: tokens.wbnb,
   }, 
+  {
+    pid: null,
+    lpSymbol: 'CSIX-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x990403f188f6B4316B35accA436Bf6b76414656F',
+    },
+    token: tokens.csix,
+    quoteToken: tokens.wbnb,
+  }, 
  
-
 
 ]
 
