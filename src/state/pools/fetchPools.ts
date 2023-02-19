@@ -1,4 +1,5 @@
 import BigNumber from 'bignumber.js'
+import { BigNumber as EthersBigNumber } from '@ethersproject/bignumber'
 import poolsConfig from 'config/constants/pools'
 import sousChefABI from 'config/abi/sousChef.json'
 import cakeABI from 'config/abi/cake.json'
@@ -19,6 +20,7 @@ export const fetchPoolsBlockLimits = async () => {
   const callsEndBlock = poolsWithEnd.map((poolConfig) => {
     return {
       address: getAddress(poolConfig.contractAddress),
+    .filter((p) => p.stakingToken.symbol !== 'BNB' && !p.isFinished)
       name: 'bonusEndBlock',
     }
   })
@@ -27,7 +29,7 @@ export const fetchPoolsBlockLimits = async () => {
   const ends = await multicall(sousChefABI, callsEndBlock)
 
   return poolsWithEnd.map((cakePoolConfig, index) => {
-    const startBlock = starts[index]
+    const [[startBlock], [endBlock]] = startEndBlockResult[index]
     const endBlock = ends[index]
     return {
       sousId: cakePoolConfig.sousId,
