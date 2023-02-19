@@ -54,6 +54,7 @@ const ExpandedFooter: React.FC<ExpandedFooterProps> = ({ pool, account }) => {
     startBlock,
     endBlock,
     stakingLimit,
+    stakingLimitEndBlock,
     contractAddress,
     sousId,
     isAutoVault,
